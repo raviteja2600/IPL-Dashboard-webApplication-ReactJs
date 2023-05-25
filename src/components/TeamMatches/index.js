@@ -16,7 +16,7 @@ class TeamMatches extends Component {
   }
 
   getTeamMatchesDetails = async () => {
-    const {match} = await this.props
+    const {match} = this.props
     const {params} = match
     const {id} = params
 
