@@ -1,0 +1,65 @@
+.recent-match-card-list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: #0f172a;
+  list-style-type: none;
+  width: 200px;
+  height: 250px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .recent-match-card-list-item {
+    height: 270px;
+    width: 220px;
+  }
+}
+.recent-match-card-item-logo {
+  height: 40px;
+  width: 40px;
+}
+@media screen and (min-width: 768px) {
+  .recent-match-card-item-logo {
+    height: 60px;
+    width: 60px;
+  }
+}
+.recent-match-competing-team {
+  font-family: 'Bree Serif';
+  font-size: 15px;
+  color: #ffffff;
+  text-align: center;
+}
+.recent-match-result {
+  font-family: 'Bree Serif';
+  font-size: 10px;
+  color: #ffffff;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .recent-match-result {
+    font-size: 12px;
+  }
+}
+.recent-match-status {
+  font-family: 'Bree Serif';
+  font-size: 13px;
+  color: #18ed66;
+}
+@media screen and (min-width: 768px) {
+  .recent-match-status {
+    font-size: 15px;
+  }
+}
+.match-lost {
+  color: #e31a1a;
+}
+@media screen and (min-width: 768px) {
+  .match-lost {
+    font-size: 15px;
+  }
+}

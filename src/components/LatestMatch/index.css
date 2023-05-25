@@ -1,0 +1,173 @@
+.latest-match-card-container {
+  background-color: #0f172a;
+  border: none;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-card-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+.latest-match-card-top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  border-bottom: 2px solid #475569;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-card-top-section {
+    border-bottom: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .latest-match-card-top-section {
+    justify-content: flex-start;
+  }
+}
+.competing-team {
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .competing-team {
+    font-size: 20px;
+  }
+}
+.date {
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .date {
+    font-size: 20px;
+  }
+}
+.venue {
+  font-family: 'Bree Serif';
+  font-size: 10px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .venue {
+    font-size: 14px;
+  }
+}
+.result {
+  font-family: 'Bree Serif';
+  font-size: 10px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .result {
+    font-size: 14px;
+  }
+}
+.team-logo {
+  height: 60px;
+}
+@media screen and (min-width: 768px) {
+  .team-logo {
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.latest-match-card-bottom-section {
+  padding: 10px;
+}
+@media screen and (min-width: 768px) {
+  .latest-match-card-bottom-section {
+    text-align: right;
+    width: 300px;
+  }
+}
+.first-inning {
+  font-family: 'Bree Serif';
+  font-size: 13px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .first-inning {
+    font-size: 18px;
+  }
+}
+.first-inning-name {
+  font-family: 'Bree Serif';
+  font-size: 10px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .first-inning-name {
+    font-size: 13px;
+  }
+}
+.second-inning {
+  font-family: 'Bree Serif';
+  font-size: 13px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .second-inning {
+    font-size: 18px;
+  }
+}
+.second-inning-name {
+  font-family: 'Bree Serif';
+  font-size: 10px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .second-inning-name {
+    font-size: 13px;
+  }
+}
+.man-of-the-match {
+  font-family: 'Bree Serif';
+  font-size: 15px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .man-of-the-match {
+    font-size: 20px;
+  }
+}
+.man-of-the-match-name {
+  font-family: 'Bree Serif';
+  font-size: 10px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .man-of-the-match-name {
+    font-size: 13px;
+  }
+}
+.umpire {
+  font-family: 'Bree Serif';
+  font-size: 13px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .umpire {
+    font-size: 18px;
+  }
+}
+.umpire-name {
+  font-family: 'Bree Serif';
+  font-size: 10px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .umpire-name {
+    font-size: 13px;
+  }
+}

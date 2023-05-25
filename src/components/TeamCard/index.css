@@ -1,0 +1,49 @@
+.link-team-card-item {
+  text-decoration: none;
+}
+.team-card-container {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  height: 50px;
+  width: 150px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .team-card-container {
+    width: 220px;
+  }
+}
+.team-card-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.team-card-image {
+  width: 30px;
+}
+@media screen and (min-width: 768px) {
+  .team-card-image {
+    width: 40px;
+  }
+}
+.team-card-name {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+  color: #ffffff;
+  width: 80px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .team-card-name {
+    width: 110px;
+  }
+}
